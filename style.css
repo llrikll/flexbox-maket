@@ -68,7 +68,7 @@ body {
     font-weight: 600;
     font-size: 16px;
     line-height: 45px;
-    padding: 15px 21px 14px 22px;
+    padding: 15px 23px 14px 22px;
     text-decoration: none;
     background-color: #FF6336;
     color: #FFFFFF;
@@ -179,12 +179,6 @@ body {
     width: 490px;
     margin-bottom: 30px;
 }
-.after{
-    width: 450px;
-}
-.lost {
-    width: 520px;
-}
 .card-link {
     font-weight: 600;
     text-decoration: none;
@@ -258,9 +252,14 @@ body {
     width: 409px;
     margin-bottom: 25px;
 }
+.boost-item {
+    margin-right: 31px;
+}
+.boost-item:last-child {
+    margin-right: 0;
+}
 .boost-list {
     display: flex;
-    justify-content: space-between;
 }
 .develp-img {
     padding-top: 17px;
@@ -374,7 +373,7 @@ body {
     font-weight: 600;
     font-size: 16px;
     line-height: 60px;
-    padding: 22px 20px;
+    padding: 22px 21px;
     background-color: #FF6336;
     color: #FFFFFF;
     text-decoration: none;
@@ -400,7 +399,7 @@ body {
     margin-bottom: 54px;
 }
 .made-button {
-    padding: 22px 40px;
+    padding: 22px 43px 22px 42px;
     background-color: #000000;
 }
 .footer {
@@ -444,7 +443,14 @@ body {
     font-weight: 600;
     font-size: 20px;
     line-height: 25px;
-    margin-bottom: 21px;
+    margin-bottom: 16px;
+}
+.footer-item {
+    line-height: 15px;
+    margin-bottom: 15px;
+}
+.footer-item:last-child {
+    margin-bottom: 0;
 }
 .footer-link {
     font-size: 15px;
@@ -470,10 +476,10 @@ body {
 }
 .copyright-logo {
    display: flex;
-   justify-content: flex-start;
 }
 .copyright-text {
-    line-height: 0.2;
+    font-size: 12px;
+    line-height: 8px;
     margin-right: 76px;
 }
 .copyright-link {
@@ -486,6 +492,11 @@ body {
 .copyright-years {
     font-size: 12px;
     line-height: 15px;
+}
+.copyright-text {
+    font-size: 12px;
+    line-height: 15px;
+    margin-right: 76px;
 }
 .link-rights{
     text-decoration: none;
