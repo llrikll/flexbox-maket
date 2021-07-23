@@ -89,7 +89,7 @@ body {
     margin-left: 51px;
 }
 .accelerate {
-    padding: 129px 0 172px 0;
+    padding: 129px 0 167px 0;
 }
 .booking {
     display: flex;
@@ -136,7 +136,7 @@ body {
 }
 .companies {
     background-color: #FF9C7D;
-    padding: 108px 0 120px;
+    padding: 104px 0;
 }
 .title-companies {
     font-weight: 600;
@@ -144,7 +144,7 @@ body {
     line-height: 60px;
     text-align: center;
     width: 720px;
-    margin: 0 auto 70px auto;
+    margin: 0 auto 65px auto;
 }
 .companies-list {
     display: flex;
@@ -155,7 +155,7 @@ body {
     display: block;
 }
 .four-cards {
-    padding-top: 90px;
+    padding: 90px 0 150px 0;
 }
 .cards-text {
     padding-top: 151px;
@@ -166,7 +166,7 @@ body {
     margin-bottom: 250px;
 }
 .card-item:last-child {
-    margin-bottom: 150px;
+    margin-bottom: 0;
 }
 .card-title {
     font-weight: 600;
@@ -199,7 +199,7 @@ body {
     border-bottom: 1px solid #000000;
 }
 .lokalize {
-    padding: 120px 0 150px 0;
+    padding: 115px 0 80px 0;
     background-color: #FFF8E4;
 }
 .lokalize-title {
@@ -207,7 +207,7 @@ body {
     font-weight: 600;
     font-size: 50px;
     line-height: 60px;
-    margin-bottom: 58px;
+    margin-bottom: 74px;
 }
 .lokalize-list {
     display: flex;
@@ -217,7 +217,7 @@ body {
 .lokalize-item {
     width: 330px;
     text-align: center;
-    margin-bottom: 57px;
+    margin-bottom: 77px;
 }
 .localize-card-img {
     margin-bottom: 16px;
@@ -237,7 +237,7 @@ body {
     margin: 0 auto;
 }
 .boost {
-    padding: 154px 0 187px 0;
+    padding: 149px 0 185px 0;
 }
 .boost-title {
     font-weight: 600;
@@ -246,7 +246,7 @@ body {
     margin-bottom: 75px;
 }
 .boost-card-img {
-    margin-bottom: 49px;
+    margin-bottom: 50px;
 }
 .boost-card-title {
     font-weight: 600;
@@ -294,7 +294,7 @@ body {
     display: inline-block;
 }
 .capterra {
-    padding: 79px 0 80px 0;
+    padding: 90px 0 88px 0;
     background-color: #DABC98;
 }
 .capterra-content {
@@ -346,7 +346,7 @@ body {
     margin-bottom: 4px;
 }
 .integrate {
-    padding: 169px 0 162px 0;
+    padding: 165px 0 162px 0;
 }
 .content-integrate {
     display: flex;
@@ -404,13 +404,13 @@ body {
     background-color: #000000;
 }
 .footer {
-    padding: 92px 0 95px 0;
+    padding-top: 85px;
     background-color: #EEEEEE;
 }
 .case {
     width: 370px;
     margin-right: 70px;
-    margin-bottom: 95px;
+    margin-bottom: 90px;
 }
 .case-title {
     font-weight: 600;
@@ -429,7 +429,7 @@ body {
 }
 .case-discription {
     width: 290px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 .case-link {
     text-decoration: none;
@@ -440,7 +440,6 @@ body {
     display: flex;
     border-bottom: 1px solid #000000;
 }
-
 .footer-title {
     font-weight: 600;
     font-size: 20px;
@@ -454,6 +453,7 @@ body {
     text-decoration: none;
 }
 .footer-card {
+    padding-top: 5px;
     width: 187px;
     margin-right: 37px;
 }
