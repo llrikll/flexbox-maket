@@ -55,20 +55,22 @@ body {
     margin-bottom: 24px;
 }
 .log-in {
+    display: inline-block;
     font-weight: 600;
     font-size: 16px;
     line-height: 45px;
     border: 1px solid rgba(0, 0, 0, 0.5);
-    padding: 14px 36px 13px 36px;
+    padding: 0 36px;
     text-decoration: none;
     margin-right: 10px;
     color: #000000;
 }
 .free-button {
+    display: inline-block;
     font-weight: 600;
     font-size: 16px;
     line-height: 45px;
-    padding: 15px 23px 14px 22px;
+    padding: 0 23px 0 22px;
     text-decoration: none;
     background-color: #FF6336;
     color: #FFFFFF;
@@ -115,17 +117,16 @@ body {
 }
 .accelerate-button {
     line-height: 60px;
-    padding: 22px 41px 22px 42px;
-    margin-right: 10px;
+    padding: 0 41px 0 42px;
+    margin-right: 12px;
 }
 .bookdemo {
     font-weight: 600;
     font-size: 16px;
     line-height: 60px;
     border: 1px solid rgba(0, 0, 0, 0.5);
-    padding:  21px 29px;
+    padding:  0px 29px;
     text-decoration: none;
-    margin-right: 0;
 }
 .button-book {
     margin-bottom: 25px;
@@ -370,10 +371,11 @@ body {
     margin-bottom: 32px;
 }
 .integrate-button {
+    display: inline-block;
     font-weight: 600;
     font-size: 16px;
     line-height: 60px;
-    padding: 22px 21px;
+    padding: 0 21px;
     background-color: #FF6336;
     color: #FFFFFF;
     text-decoration: none;
@@ -399,9 +401,18 @@ body {
     margin-bottom: 54px;
 }
 .made-button {
-    padding: 22px 43px 22px 42px;
+    padding: 0 42px;
     background-color: #000000;
 }
+.hvr-bounce-in {
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    transition-duration: 0.5s;
+}
+.hvr-bounce-in:hover {
+    transform: scale(1.2);
+    transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+ }
 .footer {
     padding-top: 85px;
     background-color: #EEEEEE;
